@@ -1,0 +1,145 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.grisesito{
+	background-color: #f0f0f0;
+}
+.fondo{
+	background-image:  url("../imagenes/vendernatura.png"); 
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.fondito{
+	background-color: rgba(255,255,255,0.7);
+}
+.navega{
+	background-color: #f0f0f0;
+}
+.fnaranja{
+	background-color: #fbaf7e;
+}
+/*
+h2{
+	color: #fbab7e;
+}
+*/
+.alto{
+	height: 50vh;
+}
+/*
+h4{
+	color: #fbab7e;	
+}*/
+.naranja{
+	color: #fbab7e;
+}
+.subtitulo{
+	font-size: 17px;
+	color: #cccccc;
+}
+.gris{
+	background-color: #f2f2f2;
+}
+.pie{
+	background-color: #fbab7e;
+}
+.appwhatsapp{
+		position: fixed;
+		right: 30px;
+		bottom: 50px;
+		width: 60px;
+		z-index: 1000;
+}
+.appwhatsapp img{
+	width: 100%;
+	height: auto;
+}
+.iconito{
+	font-size: 2.5rem; 
+	color: #fbab7e;
+}
+.iconitop{
+	font-size: 2rem; 
+	color: #fbab7e;
+}
+.iconito2{
+	color: #fbab7e;
+	font-size: 2.5rem;
+}
+.iconito3{
+	color: #fbab7e;
+	font-size: 5rem;
+}
+.parallax{
+	background-image: url("../imagenes/vender_natura_banner_2.webp");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+.parallax2{
+	background-image: url("../imagenes/fondo2.png"); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+/* menu   */
+.arribamenu{
+	display: flex;
+	justify-content: space-between;
+	padding-left: 0px;
+	padding-right: 50px;
+	background-color: #f0f0f0;
+	height: 45px;
+	padding-top: 12px;
+}
+.arribamenu li{
+	list-style: none;
+	/*text-align: center;*/
+	/*background-color: #ff4949;*/
+	width: 100%;
+	
+}
+.arribamenu a{
+	text-align: center;
+	text-decoration: none;
+	color: #7f7f7f;
+}
+.arribamenu a:hover,a:active{
+	color: rgba(0,0,0,.9);
+}
+.redes{
+	/*display: flex;*/
+	justify-content: space-between;
+}
+.respira{
+	margin-right: 15px;
+}
+.revista{
+	position: absolute;
+	left: 70%;
+	top: 15px;
+}
+@media only screen and (min-width:900px) and (max-width:2000px){
+ 	.desaparecedor {
+ 	display: none;
+	}
+	.menusss{
+		display: none;
+	}
+
+}
+@media only screen and (min-width:100px) and (max-width:900px){
+ 	.desaparesidos {
+ 	display: none;
+	}
+	.fondo {
+		background-image: url("../imagenes/vender_natura_banner_movil.webp");
+   }
+   .arribamenu {
+	   display: none;
+   }
+}
+

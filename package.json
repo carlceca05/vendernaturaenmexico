@@ -1,0 +1,12 @@
+{
+  "name": "vendernaturaenmexico",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "purgecss --css sass/custom.css --content index.html confirmacion.html privacidad.html revistanatura.html --output estilos/reducido.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
