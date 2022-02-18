@@ -1,15 +1,15 @@
 let span = document.getElementsByClassName('mueve');
 let product = document.getElementsByClassName('product')
-let product_page = Math.ceil(product.length/3);
+let product_page = Math.ceil(product.length/7);
 let l = 0;
 let movePer = 33;
 let maxMove = 203;
 // mobile_view	
-let mob_view = window.matchMedia("(max-width: 768px)");
+let mob_view = window.matchMedia("(max-width: 2000px)");
 if (mob_view.matches)
 	{
-	movePer = 100;
-	maxMove = 504;
+	movePer = 30;
+	maxMove = 700;
 	}
 let right_mover = ()=>{
 	l = l + movePer;
